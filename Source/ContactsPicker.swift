@@ -292,6 +292,9 @@ open class ContactsPicker: UIViewController, UITableViewDelegate, UITableViewDat
                 /// Catching exception as enumerateContactsWithFetchRequest can throw errors
                 print(error.localizedDescription)
             }
+
+            default:
+                break
             
         }
     }
